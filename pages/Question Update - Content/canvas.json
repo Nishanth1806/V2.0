@@ -2134,8 +2134,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "subject_select.selectedOptionValue",
-                "class_select.selectedOptionValue"
+                "class_select.selectedOptionValue",
+                "subject_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

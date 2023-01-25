@@ -3519,15 +3519,56 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [
-          {
-            "code": 4041,
-            "message": "Cyclical dependency error encountered while parsing relationship [default_end_date.myFun1.actionConfiguration : default_end_date.myFun1] where the relationship is denoted as (source : target).",
-            "errorType": "A cyclic dependency error has been encountered on current page, \nqueries on page load will not run. \n Please check debugger and Appsmith documentation for more information"
-          }
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "DCP Updates _get_class_name",
+              "name": "get_class_name",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "DCP Updates _get_sec",
+              "name": "get_sec",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "DCP Updates _school_name",
+              "name": "school_name",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "DCP Updates _sub_name",
+              "name": "sub_name",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "DCP Updates _get_cdid_for_edit_test_table",
+              "name": "get_cdid_for_edit_test_table",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.triggeredRow.chapter_tag"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
         ],
-        "validOnPageLoadActions": false,
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
         "id": "DCP Updates ",
         "deleted": false,
         "policies": [],
