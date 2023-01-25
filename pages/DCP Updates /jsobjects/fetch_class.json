@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "fetch_class",
+    "pageId": "DCP Updates ",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tfilter_class: () => {\n\t\tlet x = get_class_name.data.filter(i => {return (i.school_id == school.selectedOptionValue)});\n\t\treturn(x);\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "DCP Updates _fetch_class",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63916dd94b95806da2da36ce"
+}

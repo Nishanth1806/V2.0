@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "get_edit_test_details",
+    "pageId": "DCP Updates ",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t{{storeValue('cdli',undefined)}};\n\t\t{{get_cdid_for_edit_test_table.run()}};\n\t\t{{get_cdid_for_edit_test.run()}};\n\t\tget_testdate_ques_req.run();\n\t\n\t\t{{storeValue('cdli',get_cdid_for_edit_test.data.map(u=>u.cd_id))}};\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "DCP Updates _get_edit_test_details",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63917ad11a6c7b62d5cb8600"
+}

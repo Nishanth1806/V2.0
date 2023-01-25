@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "fetch_class_for_delivery",
+    "pageId": "PWS Requirement page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tfilter_class: () => {\n\t\tlet x = get_class_name.data.filter(i => {return (i.school_id == school.selectedOptionValue)});\n\t\t\n\t\treturn(x);\n\t\t\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "PWS Requirement page_fetch_class_for_delivery",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63885fe7b3fbc9369c45e9dd"
+}

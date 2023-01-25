@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "fetch_test",
+    "pageId": "Queston Selection New  Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tfilter_test: () => {\n\t\n\t\tlet a = date_1.data.filter(j => {return (j.school_id == school.selectedOptionValue && j.class_id == std.selectedOptionValue &&j.chapter_tag == chap.selectedOptionValue )} );\n\t\n\t console.log(a[0].test_id, a[0].test_name) \n\t\treturn(a)\n\t\t\n\t\t\n\t\t;\n}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Queston Selection New  Copy_fetch_test",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_6385ad46d4541418e74870b2"
+}

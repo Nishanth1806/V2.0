@@ -1,0 +1,814 @@
+{
+  "unpublishedPage": {
+    "name": "Theory Message Template ",
+    "slug": "theory-message-template",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 950,
+          "containerStyle": "none",
+          "snapRows": 95,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 75,
+          "minHeight": 960,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "widgetName": "DatePicker1",
+              "minDate": "1920-12-31T18:30:00.000Z",
+              "dateFormat": "YYYY-MM-DD",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "defaultDate"
+                }
+              ],
+              "displayName": "DatePicker",
+              "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
+              "searchTags": [
+                "calendar"
+              ],
+              "topRow": 0,
+              "bottomRow": 7,
+              "shortcuts": false,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "DATE_PICKER_WIDGET2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 22.578125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onDateSelected"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "defaultDate"
+                }
+              ],
+              "labelPosition": "Top",
+              "isDisabled": false,
+              "key": "3odv1a2ccu",
+              "onDateSelected": "{{data.run()}}",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "defaultDate": "{{default_date.myFun1()}}",
+              "isDeprecated": false,
+              "rightColumn": 20,
+              "dynamicHeight": "FIXED",
+              "widgetId": "4anj22q1cm",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "datePickerType": "DATE_PICKER",
+              "label": "Label",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "timePrecision": "minute",
+              "borderRadius": "0.375rem",
+              "maxDynamicHeight": 9000,
+              "firstDayOfWeek": 0,
+              "closeOnSelection": true,
+              "maxDate": "2121-12-31T18:29:00.000Z",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "multiRowSelection": true,
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 7,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "primaryColumns.school_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.std.computedValue"
+                },
+                {
+                  "key": "primaryColumns.section.computedValue"
+                },
+                {
+                  "key": "primaryColumns.subject_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.chapter_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.cd_id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.chapter.computedValue"
+                },
+                {
+                  "key": "primaryColumns.cd_name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.computedValue"
+                },
+                {
+                  "key": "primaryColumns.section_id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.subject_id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.url.computedValue"
+                },
+                {
+                  "key": "primaryColumns.url.buttonLabel"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.buttonColor"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.borderRadius"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.boxShadow"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.buttonLabel"
+                },
+                {
+                  "key": "primaryColumns.percentage_completed.computedValue"
+                },
+                {
+                  "key": "primaryColumns.chapter_tag.computedValue"
+                },
+                {
+                  "key": "primaryColumns.percentage_completed.cellBackground"
+                },
+                {
+                  "key": "primaryColumns.percentage_completed.textColor"
+                },
+                {
+                  "key": "primaryColumns.end_date.computedValue"
+                },
+                {
+                  "key": "primaryColumns.end_date.cellBackground"
+                },
+                {
+                  "key": "primaryColumns.base_chapter_tag.computedValue"
+                }
+              ],
+              "leftColumn": 0,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": "",
+              "showInlineEditingOptionDropdown": true,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultSelectedRowIndices": "",
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "school_name",
+                "std",
+                "section",
+                "subject_name",
+                "chapter",
+                "base_chapter_tag",
+                "cd_name",
+                "end_date",
+                "percentage_completed",
+                "customColumn2",
+                "customColumn1",
+                "url",
+                "section_id",
+                "subject_id",
+                "chapter_name",
+                "cd_id",
+                "chapter_tag"
+              ],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "primaryColumns.percentage_completed.cellBackground"
+                },
+                {
+                  "key": "primaryColumns.percentage_completed.textColor"
+                },
+                {
+                  "key": "primaryColumns.end_date.cellBackground"
+                }
+              ],
+              "displayName": "Table",
+              "bottomRow": 62,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75,
+                "customColumn1": 69,
+                "chapter_name": 383,
+                "chapter": 261,
+                "cd_name": 228.99999999999997,
+                "std": 65.99999999999999,
+                "section": 73,
+                "subject_name": 113,
+                "customColumn2": 119
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "primaryColumns.url.onClick"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.onClick"
+                }
+              ],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "school_name": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "school_name",
+                  "id": "school_name",
+                  "alias": "school_name",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "school_name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"school_name\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "std": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "std",
+                  "id": "std",
+                  "alias": "std",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "std",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"std\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "section": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "section",
+                  "id": "section",
+                  "alias": "section",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "section",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"section\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "subject_name": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "subject_name",
+                  "id": "subject_name",
+                  "alias": "subject_name",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "subject_name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"subject_name\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "chapter_name": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "chapter_name",
+                  "id": "chapter_name",
+                  "alias": "chapter_name",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": false,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "chapter_name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"chapter_name\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "cd_id": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "cd_id",
+                  "id": "cd_id",
+                  "alias": "cd_id",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": false,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "cd_id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cd_id\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "customColumn1": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "customColumn1",
+                  "id": "customColumn1",
+                  "alias": "customColumn1",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "Message",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow.school_name + ' @  ' + currentRow.subject_name + ' @@@       \t\t\t\t  \"Dear Class ' + currentRow.std + ' ' + currentRow.section + ' Students,  Today, In Learn Basics, the videos are available from the Chapter -  ' + currentRow.chapter_name + ', do a Quick Revision of what you have learned today in the class through the Learn Basics Videos.     You can use these videos to get the better understanding of the topics from basics.   Chapter Name: ' + currentRow.chapter_name + ',  Topic Covered: From Introduction to ' + currentRow.cd_name + '.'))}}",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "selectOptions": ""
+                },
+                "chapter": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "chapter",
+                  "id": "chapter",
+                  "alias": "chapter",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "chapter",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"chapter\"]))}}",
+                  "validation": {}
+                },
+                "cd_name": {
+                  "allowCellWrapping": false,
+                  "index": 7,
+                  "width": 150,
+                  "originalId": "cd_name",
+                  "id": "cd_name",
+                  "alias": "cd_name",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "cd_name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cd_name\"]))}}",
+                  "validation": {}
+                },
+                "section_id": {
+                  "allowCellWrapping": false,
+                  "index": 8,
+                  "width": 150,
+                  "originalId": "section_id",
+                  "id": "section_id",
+                  "alias": "section_id",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": false,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "section_id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"section_id\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "subject_id": {
+                  "allowCellWrapping": false,
+                  "index": 9,
+                  "width": 150,
+                  "originalId": "subject_id",
+                  "id": "subject_id",
+                  "alias": "subject_id",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": false,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "subject_id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"subject_id\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "url": {
+                  "allowCellWrapping": false,
+                  "index": 10,
+                  "width": 150,
+                  "originalId": "url",
+                  "id": "url",
+                  "alias": "url",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": false,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "url",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"url\"]))}}",
+                  "validation": {},
+                  "cellBackground": "",
+                  "customAlias": "",
+                  "buttonLabel": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'Action'))}}",
+                  "onClick": "{{navigateTo('', {}, 'SAME_WINDOW')}}"
+                },
+                "customColumn2": {
+                  "allowCellWrapping": false,
+                  "index": 10,
+                  "width": 150,
+                  "originalId": "customColumn2",
+                  "id": "customColumn2",
+                  "alias": "customColumn2",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "button",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "navigate to url",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                  "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
+                  "customAlias": "",
+                  "buttonLabel": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'Navigate'))}}",
+                  "onClick": "{{navigateTo(Table1.triggeredRow.url, {},'NEW_WINDOW')}}",
+                  "buttonVariant": "SECONDARY"
+                },
+                "percentage_completed": {
+                  "allowCellWrapping": false,
+                  "index": 11,
+                  "width": 150,
+                  "originalId": "percentage_completed",
+                  "id": "percentage_completed",
+                  "alias": "percentage_completed",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  (function() {\n    if (currentRow.percentage_completed > 0) \n\t\t{\n\t\t\t\t\n\t\t\t   if (currentRow.percentage_completed >99) \n\t\t\t\t\t \t{\n        \t\treturn \"#fff\";\n\t\t\t\t\t}\n    } \n\t\telse \n\t\t{\n        return \"#00000\";\n    }\n})() ))}}",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "percentage_completed",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"percentage_completed\"]))}}",
+                  "validation": {},
+                  "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  (function() {\n    if (currentRow.percentage_completed > 0) \n\t\t{\n\t\t\t\t\n\t\t\t   if (currentRow.percentage_completed >99) \n\t\t\t\t\t \t{\n        \t\treturn \"#16a34a\";\n\t\t\t\t\t}\n    } \n\t\telse \n\t\t{\n        return \"#00000\";\n    }\n})() ))}}"
+                },
+                "chapter_tag": {
+                  "allowCellWrapping": false,
+                  "index": 12,
+                  "width": 150,
+                  "originalId": "chapter_tag",
+                  "id": "chapter_tag",
+                  "alias": "chapter_tag",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": false,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "chapter_tag",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"chapter_tag\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "end_date": {
+                  "allowCellWrapping": false,
+                  "index": 13,
+                  "width": 150,
+                  "originalId": "end_date",
+                  "id": "end_date",
+                  "alias": "end_date",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "date",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "end_date",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"end_date\"]))}}",
+                  "validation": {},
+                  "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  (function() {\n    if (currentRow.end_date == default_date.myFun1() )\n\t\t\t{\n        \t\treturn \"#16a34a\";\n\t\t\t\t}\n    \n\t\telse \n\t\t{\n        return \"#00000\";\n    }\n})() ))}}",
+                  "outputFormat": "YYYY-MM-DD",
+                  "inputFormat": "YYYY-MM-DD"
+                },
+                "base_chapter_tag": {
+                  "allowCellWrapping": false,
+                  "index": 14,
+                  "width": 150,
+                  "originalId": "base_chapter_tag",
+                  "id": "base_chapter_tag",
+                  "alias": "base_chapter_tag",
+                  "horizontalAlignment": "CENTER",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "base_chapter_tag",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"base_chapter_tag\"]))}}",
+                  "validation": {},
+                  "cellBackground": ""
+                }
+              },
+              "key": "f1lwvmixj4",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "textSize": "0.875rem",
+              "widgetId": "22capr9f9e",
+              "tableData": "{{data.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "serverSidePaginationEnabled": true,
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "CENTER",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Theory Message Template _data",
+              "name": "data",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "DatePicker1.formattedDate"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Theory Message Template ",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_639814d2e77ccb59f6884058"
+}

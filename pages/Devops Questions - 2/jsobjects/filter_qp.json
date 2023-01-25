@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "filter_qp",
+    "pageId": "Devops Questions - 2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\n\tmyFun1: () => {\n\t\t\tlet x = full_ques.data;\n\t\t\t//let y = x.filter(i => {return(i.chapter_tag === Select_chapter.selectedOptionValue)});\n\t\t\tlet y = x.filter(i => {return(i.chapter_tag.includes(Select_subject.selectedOptionValue))});\n\t\t\treturn(y);\n\t}\n\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Devops Questions - 2_filter_qp",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63afcb19b7e37c573eab07a3"
+}

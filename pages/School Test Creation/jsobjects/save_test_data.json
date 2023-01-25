@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "save_test_data",
+    "pageId": "School Test Creation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tcreate_test_refresh: () => {\n\t\t{{save_data.run(() => {showAlert('Success','success');\n\t\t\t\t\t\t\t\t\t\t\t\t\t get_last_test_name.run(() => \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t{ get_new_test_num.run();})\n\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t}, \n\t\t\t\t\t\t\t\t\t\t\t() => showAlert('Failed'))}}\n\t\t                      {{ resetWidget(\"Table1\")}};\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t{{ resetWidget(\"req_question\")}};\n\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t}\n\t\n}\n\n\n\n\n\n\n\n\n",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "School Test Creation_save_test_data",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_6381f2b1fa57b54aac1bc3e8"
+}

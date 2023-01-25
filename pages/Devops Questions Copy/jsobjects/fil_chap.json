@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "fil_chap",
+    "pageId": "Devops Questions Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tmyFun1: () => {\n\t\t\n\t\tlet a = get_chap.data.filter(i => {return (i.subject_id == Select_subject.selectedOptionValue && i.std == Select_Class.selectedOptionValue)});\n\t\treturn(a);\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Devops Questions Copy_fil_chap",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_637e321c4a42f47b0d2c4385"
+}

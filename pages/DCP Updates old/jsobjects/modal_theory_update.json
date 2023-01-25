@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "modal_theory_update",
+    "pageId": "DCP Updates old",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tupdate_theory.run(()=> {\n\t\tupdate_assigned_teacher.run()\n\t\tget_cdid.run()\n\t\tdisplay_handling_teacher_name.run()\n\t\tshowAlert('Update Success')\n\t\t})\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "DCP Updates old_modal_theory_update",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_637e37368a35f35f9baeb061"
+}

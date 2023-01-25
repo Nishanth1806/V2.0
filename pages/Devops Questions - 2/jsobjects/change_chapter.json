@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "change_chapter",
+    "pageId": "Devops Questions - 2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t{{resetWidget(\"Select_chapter\",true)}};\n\t\tfil_chap.myFun1();\n\t},\n\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Devops Questions - 2_change_chapter",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63afcb19b7e37c573eab07a7"
+}

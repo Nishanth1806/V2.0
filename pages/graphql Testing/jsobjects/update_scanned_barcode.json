@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "update_scanned_barcode",
+    "pageId": "graphql Testing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tget_barcode_number.run(()=> { \n\t\tupdate_barcode_status.run();\n\t\tshowAlert('Success');\n\t\tget_printed_count.run()\n\t\t})\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}\n\n",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "graphql Testing_update_scanned_barcode",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63abce70fcb7cc4992adfbe4"
+}

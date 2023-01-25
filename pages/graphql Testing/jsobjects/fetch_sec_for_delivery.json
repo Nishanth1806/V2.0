@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "fetch_sec_for_delivery",
+    "pageId": "graphql Testing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\n\tlet b = get_section.data.data.section_master.filter(j=> {\n\t\t\treturn(j.class_id == std.selectedOptionValue)\n\t\t\t\n\t\t\t\n\t\t})\n\t\treturn b\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "graphql Testing_fetch_sec_for_delivery",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63abce70fcb7cc4992adfbdc"
+}

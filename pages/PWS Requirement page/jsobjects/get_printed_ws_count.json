@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "get_printed_ws_count",
+    "pageId": "PWS Requirement page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tget_1_page_ws_count.run();\n\t\tget_2_page_ws_count.run();\n\t\tget_3_page_ws_count.run();\n\t\tget_4_page_ws_count.run();\n\t\tget_5_page_ws_count.run();\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "PWS Requirement page_get_printed_ws_count",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63998e34b5ce0e64b70af4ae"
+}

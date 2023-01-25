@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "modal_open",
+    "pageId": "DCP Updates  Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t\n\t\tget_cdid.run()\n\t\tget_school_name_for_test_name.run()\n\t\tshowModal('Modal1')\n\t\tdisplay_handling_teacher_name.run()\n\t\tget_last_test_name.run()\n\t\tget_new_test_num.run()\n\t\tget_test_name_to_edit.run()\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "DCP Updates  Copy_modal_open",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63d0b5413f7cc55e1ac7a59a"
+}

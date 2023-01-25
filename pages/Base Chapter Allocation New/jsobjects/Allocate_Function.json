@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "Allocate_Function",
+    "pageId": "Base Chapter Allocation New",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\n\t\tif(Select_base_chapter.selectedOptionValues.length==0)\n\t\t\t{\n\t\t\t\tshowAlert('Select Base Chapters','warning')\n\t\t\t\n\t\t\t}\n\t\telse\n\t\t{\n\t\tAllocate_Base_Chapter.run(() =>showAlert('Allocated Successfully','success'), () =>showAlert('Already Allocated ','error') )\n\t\tChapter_dependance_Table.run()\n\t\tget_chapter_details.run()\n\t\tresetWidget(\"Select_base_chapter\",true)\n\t\t\n\t}get_chapter_details.run()\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Base Chapter Allocation New_Allocate_Function",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63ad36e6647efb486b7740a8"
+}

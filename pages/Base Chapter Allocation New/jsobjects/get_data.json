@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "get_data",
+    "pageId": "Base Chapter Allocation New",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\t//write code here\n\t\tget_pub_name.run()\n\t\tgetBaseChaptersTag.run()\n\t\tget_CC_list.run()\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Base Chapter Allocation New_get_data",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63ad370fbc0e8334c729fde6"
+}

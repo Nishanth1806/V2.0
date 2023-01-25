@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "assign_topic_test",
+    "pageId": "Test mapping",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\t//write code here\n\t\tAssignTopicTest.run()\n\t\tresetWidget(\"Table1\",true)\n\t\tTestDetailsTable.run()\n\t\tshowAlert('Successfullly Added to Concept Test','Success')\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Test mapping_assign_topic_test",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_633c71af197d8c7f30ad96e0"
+}

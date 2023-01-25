@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "get_data",
+    "pageId": "Test mapping",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tmyFun1: () => {\n\t\tChapterTopicList.run()\n\t\tgetTopicTest.run()\n\t\tgetConceptTest.run()\n\t\tTestDetailsTable.run()\n\t\t\n\t}\n\t}\n",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Test mapping_get_data",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_633c6793cc554c49c42c918f"
+}

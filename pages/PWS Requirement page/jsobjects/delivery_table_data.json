@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "delivery_table_data",
+    "pageId": "PWS Requirement page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\n\tlet b = get_worksheet_status.data.filter(j=> {\n\t\t\treturn(j.section_id== sec.selectedOptionValue)\n\t\t\n\t\t\t\n\t\t})\n\t\treturn b\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "PWS Requirement page_delivery_table_data",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_6392c8124b95806da2da500c"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "modal_1_status_update",
+    "pageId": "PWS Requirement page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tupdate_status.run(()=> {\n\t\tresetWidget('RadioGroup4',true);\n\t\tshowAlert(\"Status Updated\");\n\t\t\tcloseModal('Modal1')\n\t\t\tget_theory_status.run()\n\t\t})\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "PWS Requirement page_modal_1_status_update",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_6389d053b3fbc9369c460bb6"
+}

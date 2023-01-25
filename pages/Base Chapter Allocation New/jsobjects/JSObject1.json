@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Base Chapter Allocation New",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\tconsole.log(Select_Class.selectedOptionValue, Select_publication.selectedOptionValue, Select_subject.selectedOptionValue)\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Base Chapter Allocation New_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63ad372b647efb486b7740b5"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "fetch_sec_for_reprint",
+    "pageId": "PWS Requirement page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\n\tlet b = get_sec.data.filter(j=> {\n\t\t\treturn(j.class_id == stdCopy.selectedOptionValue)\n\t\t\t\n\t\t\t\n\t\t})\n\t\treturn b\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "PWS Requirement page_fetch_sec_for_reprint",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_6389f903b3fbc9369c460f79"
+}

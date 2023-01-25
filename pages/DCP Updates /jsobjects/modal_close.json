@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "modal_close",
+    "pageId": "DCP Updates ",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\trefresh_table: () => {\n\t\t{{closeModal('Modal1')}}\n\t\tresetWidget(\"teacher_name\", true);\n\t\tchapter_name.run();\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "DCP Updates _modal_close",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63916dd94b95806da2da36d2"
+}

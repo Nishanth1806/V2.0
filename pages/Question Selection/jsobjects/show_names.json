@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "show_names",
+    "pageId": "Question Selection",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Question Selection_show_names",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_636c690e0c3174227f4111ec"
+}

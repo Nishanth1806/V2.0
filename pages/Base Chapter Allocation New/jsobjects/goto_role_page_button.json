@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "goto_role_page_button",
+    "pageId": "Base Chapter Allocation New",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\n\t\tif(appsmith.store.user_role_id==100){\n\t\t navigateTo('Admin Page')\n\t\t}\n\t\telse if(appsmith.store.user_role_id==101){\n\t\t navigateTo('Team Leader')\n\t\t}\n\t\telse if(appsmith.store.user_role_id==102){\n\t\t navigateTo('Content Creator')\n\t\t}\n\t\telse if(appsmith.store.user_role_id==103){\n\t\t navigateTo('CA Page')\n\t\t}\n\t\telse if(appsmith.store.user_role_id==104){\n\t\tnavigateTo('QA Page')\n\t\t\t}\t\n\t\t\t\t\t\t\telse if(appsmith.store.user_role_id==105){\n\t\tnavigateTo('Devops Page')\n\t\t\t}\n\t\telse{\n\t\t\tshowAlert('Role Not Assigned','Error')\n\t\t}\n\t\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Base Chapter Allocation New_goto_role_page_button",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63ad388b647efb486b7740e1"
+}

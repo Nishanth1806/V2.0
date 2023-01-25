@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "DCP Updates  Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tconsole.log(Table2.selectedRows.map(u=>u.cd_id))\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "DCP Updates  Copy_JSObject2",
+  "deleted": false,
+  "gitSyncId": "62f1f707b2f8027edfbfef76_63d0b5413f7cc55e1ac7a59c"
+}
